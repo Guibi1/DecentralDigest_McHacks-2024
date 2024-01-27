@@ -34,15 +34,15 @@ body {
     animation-duration: 60s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+}
 
-    &:after {
-        content: "";
-        position: absolute;
-        inset: 0;
-        background: linear-gradient(to top, transparent, black),
-            linear-gradient(to top, transparent, black),
-            linear-gradient(to right, transparent, transparent, #000000b0, transparent, transparent);
-    }
+.square-grid-effect:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, transparent, black),
+        linear-gradient(to top, transparent, black),
+        linear-gradient(to right, transparent, transparent, #000000b0, transparent, transparent);
 }
 
 @keyframes movement {

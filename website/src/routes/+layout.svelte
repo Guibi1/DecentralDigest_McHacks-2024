@@ -9,9 +9,9 @@
 </script>
 
 <AppShell>
-    <AppBar slot="header" padding="p-12">
+    <AppBar slot="header" padding="p-8">
         <svelte:fragment slot="lead">
-            <strong class="text-xl uppercase">Decentral Digest</strong>
+            <strong class="text-xl">Decentral Digest</strong>
         </svelte:fragment>
 
         <svelte:fragment slot="trail">

@@ -1,14 +1,44 @@
+<script lang="ts">
+    import { onMount } from "svelte";
+
+    const keywords = [
+        "unbiased",
+        "decentralized",
+        "disruptive",
+        "transparent",
+        "insightful",
+        "open",
+        "real",
+    ];
+
+    let current = Math.floor(Math.random() * keywords.length);
+
+    onMount(() => {
+        setInterval(() => {
+            current = (current + 1) % keywords.length;
+        }, 2000);
+    });
+</script>
+
 <div class="flex h-full flex-1 flex-col items-center justify-center gap-24">
     <h1 class="h1 flex flex-col items-center gap-2 font-bold">
-        <span class="text-4xl"> Unbiased and Decentralized disruptive transparent insightful</span>
+        <div class="relative mb-8">
+            {#each keywords as keyword, i}
+                <span
+                    class={`absolute -translate-x-1/2 -translate-y-1/2 transition-opacity duration-500 ${current === i ? "opacity-100" : "opacity-0"}`}
+                >
+                    {keyword}
+                </span>
+            {/each}
+        </div>
 
-        <span
-            class="bg-gradient-to-br from-tertiary-500 to-secondary-500 box-decoration-clone bg-clip-text text-6xl text-transparent"
+        <div
+            class="left-1/2 top-1/2 bg-gradient-to-br from-tertiary-500 to-secondary-500 box-decoration-clone bg-clip-text text-7xl text-transparent"
         >
             news
-        </span>
+        </div>
 
-        <span class="text-3xl italic"> for everyone </span>
+        <span class="text-2xl italic"> for everyone </span>
     </h1>
 
     <button class="variant-filled-secondary btn btn-xl"> Browse articles</button>

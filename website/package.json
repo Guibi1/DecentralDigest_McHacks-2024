@@ -42,6 +42,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@floating-ui/dom": "1.6.0"
+    "@floating-ui/dom": "1.6.0",
+    "zod": "^3.22.4"
   }
 }
