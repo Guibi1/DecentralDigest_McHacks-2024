@@ -42,9 +42,6 @@
   },
   "type": "module",
   "dependencies": {
-    "@floating-ui/dom": "1.6.0",
-    "@helia/json": "^3.0.0",
-    "helia": "^4.0.0",
-    "node-datachannel": "^0.5.3"
+    "@floating-ui/dom": "1.6.0"
   }
 }

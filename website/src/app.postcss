@@ -7,3 +7,49 @@ html,
 body {
     @apply h-full overflow-hidden;
 }
+
+.square-grid-effect {
+    display: relative;
+    z-index: -999;
+    pointer-events: none;
+    position: fixed;
+    bottom: 0;
+    left: -50%;
+
+    background-image: linear-gradient(
+            90deg,
+            transparent 0%,
+            transparent 45%,
+            #5bd8d8 60%,
+            transparent 45%
+        ),
+        linear-gradient(0deg, transparent 0%, transparent 45%, #5bd8d8 60%, transparent 45%);
+    background-size: 30px 12px;
+    width: 200vw;
+    height: 60vh;
+    transform: perspective(150px) rotateX(40deg);
+    perspective-origin: top;
+
+    animation-name: movement;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    &:after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to top, transparent, black),
+            linear-gradient(to top, transparent, black),
+            linear-gradient(to right, transparent, transparent, #000000b0, transparent, transparent);
+    }
+}
+
+@keyframes movement {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 0% 100%;
+    }
+}
