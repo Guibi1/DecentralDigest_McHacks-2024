@@ -1,27 +1,25 @@
 import requests
 
-def get_ipfs_data(cid):
-    # Replace "http://localhost:5001" with the appropriate IPFS API endpoint
-    api_url = "http://localhost:5001/api/v0/cat?arg=" + cid
-
+def add_to_ipfs(file_path):
+    url = "http://3.143.115.147:5001/api/v0/add"
+    
     try:
-        response = requests.get(api_url)
-        if response.status_code == 200:
-            return response.content
-        else:
-            print(f"Error: {response.status_code} - {response.text}")
-            return None
+        with open(file_path, 'rb') as file:
+            files = {'file': (file.name, file)}
+            response = requests.post(url, files=files)
+            
+            if response.status_code == 200:
+                json_response = response.json()
+                cid = json_response['Hash']
+                print(f"File added to IPFS. CID: {cid}")
+                return cid
+            else:
+                print(f"Error adding file to IPFS. Status code: {response.status_code}")
+                return None
     except Exception as e:
         print(f"An error occurred: {e}")
         return None
 
-# Replace 'your-cid' with the actual CID you want to retrieve
-your_cid = 'QmZULkCELmmk5XNfCgTnCyFgAVxBRBXyDHGGMVoLFLiXEN'
-
-data = get_ipfs_data(your_cid)
-
-if data:
-    print("Data retrieved successfully:")
-    print(data.decode('utf-8'))  # Decode binary data to UTF-8 for text content
-else:
-    print("Failed to retrieve data.")
+# Replace 'your_file.txt' with the path to the file you want to add
+file_path = 'hello.txt'
+add_to_ipfs(file_path)
