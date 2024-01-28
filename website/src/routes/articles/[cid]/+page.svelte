@@ -40,7 +40,15 @@
         </div>
     </div>
 
-    <hr class="my-4 !border-secondary-500" />
+    <h3 class="h3 mt-4">Sources</h3>
+
+    <div class="flex gap-2">
+        {#each data.sources as source, i}
+            <a href={source} class="chip variant-ghost-tertiary">{i + 1}</a>
+        {/each}
+    </div>
+
+    <hr class="!border-secondary-500 my-4" />
 
     {#each data.text as text}
         <p class="p">
