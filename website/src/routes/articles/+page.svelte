@@ -3,40 +3,32 @@
 
     const articles = [
         {
-            title: "Jannik Sinner Makes History: 22-Year-Old Italian Defeats Daniil Medvedev in Thrilling Australian Open Final Comeback, Becomes Youngest Men's Grand Slam Winner Since Djokovic in 2008",
-            url: "QmeN28evEeSs1FTs3gW1rkUjn31GNPTAzMWzxBfyJjgHnU",
+            url: "QmS2m9qTYVzu3D4gNWnKfMabVFUYFE4dPKN3zGFgw9cjHX",
+            title: "Sinner Upsets Medvedev in Epic AO Final, Wins First Slam at 22.",
         },
         {
-            title: "Former President Trump Ordered to Pay $83.3 Million in Damages to E. Jean Carroll Over Defamation Verdict",
-            url: "QmaPC9kXhj6SwLVBgyWQeGdpwajhoSx8RoEGjAu1fqyt5h",
+            url: "QmbEj9wMSvLooaMzaASPdwQW9AFSeurLFM2cgHssk7L2F9",
+            title: "Ukraine POWs: Mystery of Downed Plane",
         },
         {
-            title: "Ongoing Conflict in Gaza: UN Calls for Humanitarian Aid Amidst Accusations of International Law Violations and Genocide",
-            url: "QmSwPLww9YunmT1uHABAT61DZegmKki3SPe4CCtGZazCgC",
+            url: "QmYrxc7Gd1nLHNvqGiggbvt5ckAkwhg82ePZayEBaMTKxy",
+            title: "US Troops Killed in Jordan Drone Attack",
         },
         {
-            title: "Sinner Stuns Medvedev in Australian Open Final Comeback: Italian Claims First Grand Slam Title After Epic Five-Set Victory\" This title highlights the dramatic comeback of Jannik Sinner, who was down two sets and rallied to win the Australian Open final against Daniil Medvedev. It also emphasizes Sinner's achievement in winning his first Grand Slam title at the young age of 22.",
-            url: "QmYLpmaBKuDpFY8eNpdnq5LsmDFwqAXJYLzsuCKqVVaZ9D",
+            url: "QmPvgvfzBNASC5bBEpAda9N6EVmbr9h4XNh7RGc2yjDLHK",
+            title: "Israel-Hamas Conflict: Gaza's Humanitarian Crisis Amid Aid Suspension and ICJ Genocide Allegations.",
         },
         {
-            title: "Jannik Sinner Makes History: 22-Year-Old Italian Defeats Daniil Medvedev in Thrilling Australian Open Final Comeback, Becomes Youngest Men's Grand Slam Winner Since Djokovic in 2008",
-            url: "QmfWiRLvXfH4iAZr2dTYJeqF4Pr2ER4Byhv7cdsToQxU7t",
+            url: "QmVDKEVfi7webL57fADyuQZNDaFAbSCniXoLHs2VX1Drps",
+            title: "Deepfake Swift Images Spark Concern, Calls for Legislation",
         },
         {
-            title: "Ongoing Conflict in Gaza: UN Calls for Humanitarian Aid Amidst Accusations of International Law Violations and Genocide",
-            url: "QmQcr8thxDWsyFTsNvPV9i2grRt8yBrvFc3Th67KS23XSq",
+            url: "QmPk42MDPbeFcHsQZaUuPvSqNRZajSWcDEHPXCeG6NVQHw",
+            title: "Paris Protests: Climate Activists Target Mona Lisa, Farmers Threaten Blockades",
         },
         {
-            title: "Swift Deepfakes Sparks Outrage: Experts Demand Legislation to Combat AI-Generated Explicit Imagery",
-            url: "QmWza81aV22RYE4iY1DKugXySdXktBaait81FnB8joQCyA",
-        },
-        {
-            title: "Former President Trump Ordered to Pay $83.3 Million in Damages to E. Jean Carroll Over Defamation Verdict: The Largest Award for a Single Plaintiff in U.S. Defamation History",
-            url: "QmYDRAPww24Aj3P7joHLKyQoVF7Rz74Az5sgKbewE9PF2m",
-        },
-        {
-            title: "ing Charles III's Prostate Surgery Sparks Awareness: Encouraging Men to Seek Medical Attention for BPH",
-            url: "QmNTDT1BZ8VEEjD6ZTTfVQK3ZmTyD8B78wswHTRtBkftdH",
+            url: "QmVB92bVAuiT6jMvnFt3aK48BpXuAj2oeB4FEYvZuvhRTp",
+            title: "Haley Criticizes RNC for Bias, Demands Fair Primary",
         },
     ];
 </script>
