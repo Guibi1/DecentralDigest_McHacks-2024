@@ -6,10 +6,12 @@
     import type { PageData } from "./$types";
 
     export let data: PageData;
+
     let isRead: Promise<boolean>;
 
     async function fetchReadStatus() {
         isRead = user.getReadStatus(data.cid);
+        return await isRead;
     }
 
     onMount(fetchReadStatus);
@@ -56,18 +58,25 @@
         <!-- Actions -->
         <div class="alert-actions">
             {#if !$user.loggedIn}
-                <button on:click={user.login} class="variant-filled-secondary btn my-2">
+                <button
+                    on:click={async () => {
+                        await user.login;
+                        fetchReadStatus();
+                    }}
+                    class="variant-filled-secondary btn my-2"
+                >
                     Login with Flow
                 </button>
             {:else}
                 {#await isRead}
                     <span> Loading... </span>
-                {:then isRead}
-                    {#if isRead}
+                {:then read}
+                    {#if read}
                         <span> Marked as read! </span>
                     {:else}
                         <button
-                            on:click={() => user.markAsRead(data.cid)}
+                            on:click={() =>
+                                (isRead = user.markAsRead(data.cid).then(fetchReadStatus))}
                             class="variant-filled-primary btn my-2"
                         >
                             Mark as read
