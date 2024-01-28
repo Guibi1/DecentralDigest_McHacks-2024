@@ -1,4 +1,9 @@
 start_url,allowed_domains
 https://www.lapresse.ca,lapresse.ca
 https://www.ledevoir.com,ledevoir.com
+https://www.ctvnews.ca,ctvnews.ca
 https://www.foxnews.com,foxnews.com
+https://news.sky.com,news.sky.com
+https://www.journaldequebec.com,journaldequebec.com
+https://www.cbc.ca,cbc.ca
+https://www.nbcnews.com,nbcnews.com

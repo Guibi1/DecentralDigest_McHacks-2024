@@ -1,0 +1,8 @@
+{
+  "labels":[
+    "VALID",
+    "NOT_VALID"
+  ],
+  "threshold":0.0,
+  "positive_label":null
+}
