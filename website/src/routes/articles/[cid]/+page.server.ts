@@ -21,6 +21,7 @@ export const load = (async ({ params, fetch }) => {
     return {
         ...article.data,
         cid: params.cid,
+        title: article.data.title.replace(/^\s*"*|\s*"*$/g, ""),
         text: article.data.text.split("\n"),
         time: readingTime(article.data.text),
     };
