@@ -12,7 +12,14 @@
             description:
                 "A decentralized and distributed protocol. It's a more resilient and efficient way to store and share data on the internet, while ensuring integrity and authenticity.",
             src: "https://ipfs.tech/_nuxt/ipfs-logo.a313bcee.svg",
-            link: "https://ipfs.tech",
+            link: "https://ipfs.tech/",
+        },
+        {
+            name: "Mistral AI",
+            description:
+                "A small, fast and unrestricted language model that can be trained to optimise even further. It competes with ChatGPT while being magnitudes faster and cheaper to run.",
+            src: "https://mistral.ai/images/logo_hubc88c4ece131b91c7cb753f40e9e1cc5_2589_256x0_resize_q97_h2_lanczos_3.webp",
+            link: "https://mistral.ai/",
         },
         {
             name: "SpaCy",
@@ -38,9 +45,9 @@
         </p>
     </div>
 
-    <h2 class="h2">Technologies</h2>
+    <h2 class="h2 mt-2">Technologies</h2>
 
-    <div class="logo-cloud my-2 grid-cols-1 gap-1 lg:!grid-cols-3">
+    <div class="logo-cloud my-2 grid-cols-1 gap-8 md:!grid-cols-2 xl:!grid-cols-4">
         {#each logos as { src, name, description, link }}
             <a
                 class="logo-item variant-ghost-primary flex w-64 flex-col gap-4 p-4"
@@ -54,6 +61,4 @@
             </a>
         {/each}
     </div>
-
-    <a href="/articles" class="variant-ghost-primary btn">See more</a>
 </main>
