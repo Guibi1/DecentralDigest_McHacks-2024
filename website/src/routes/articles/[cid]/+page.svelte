@@ -68,7 +68,7 @@
             {#if !$user.loggedIn}
                 <button
                     on:click={async () => {
-                        await user.login;
+                        await user.login();
                         fetchReadStatus();
                     }}
                     class="variant-filled-secondary btn my-2"
