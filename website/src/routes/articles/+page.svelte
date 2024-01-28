@@ -19,23 +19,23 @@
             url: "QmYLpmaBKuDpFY8eNpdnq5LsmDFwqAXJYLzsuCKqVVaZ9D",
         },
         {
-            title: "",
+            title: "Jannik Sinner Makes History: 22-Year-Old Italian Defeats Daniil Medvedev in Thrilling Australian Open Final Comeback, Becomes Youngest Men's Grand Slam Winner Since Djokovic in 2008",
             url: "QmfWiRLvXfH4iAZr2dTYJeqF4Pr2ER4Byhv7cdsToQxU7t",
         },
         {
-            title: "",
+            title: "Ongoing Conflict in Gaza: UN Calls for Humanitarian Aid Amidst Accusations of International Law Violations and Genocide",
             url: "QmQcr8thxDWsyFTsNvPV9i2grRt8yBrvFc3Th67KS23XSq",
         },
         {
-            title: "",
+            title: "Swift Deepfakes Sparks Outrage: Experts Demand Legislation to Combat AI-Generated Explicit Imagery",
             url: "QmWza81aV22RYE4iY1DKugXySdXktBaait81FnB8joQCyA",
         },
         {
-            title: "",
+            title: "Former President Trump Ordered to Pay $83.3 Million in Damages to E. Jean Carroll Over Defamation Verdict: The Largest Award for a Single Plaintiff in U.S. Defamation History",
             url: "QmYDRAPww24Aj3P7joHLKyQoVF7Rz74Az5sgKbewE9PF2m",
         },
         {
-            title: "",
+            title: "ing Charles III's Prostate Surgery Sparks Awareness: Encouraging Men to Seek Medical Attention for BPH",
             url: "QmNTDT1BZ8VEEjD6ZTTfVQK3ZmTyD8B78wswHTRtBkftdH",
         },
     ];
