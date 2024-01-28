@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Star from "$lib/Star.svelte";
     import { onMount } from "svelte";
 
     const keywords = [
@@ -45,3 +46,7 @@
 </div>
 
 <div class="square-grid-effect" />
+
+<Star styles="top-[28%] left-[10%]" />
+<Star styles="top-[40%] left-[90%]" />
+<Star styles="top-[15%] left-[60%]" />

@@ -5,6 +5,7 @@
     // Floating UI for Popups
     import { computePosition, autoUpdate, flip, shift, offset, arrow } from "@floating-ui/dom";
     import { storePopup } from "@skeletonlabs/skeleton";
+    import Star from "$lib/Star.svelte";
     storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 </script>
 
@@ -15,6 +16,7 @@
         </svelte:fragment>
 
         <svelte:fragment slot="trail">
+            <a class="variant-ghost-surface btn btn-sm" href="/articles"> News </a>
             <a class="variant-ghost-surface btn btn-sm" href="/about"> About </a>
 
             <a
