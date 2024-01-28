@@ -41,7 +41,7 @@
         <span class="text-2xl italic"> for everyone </span>
     </h1>
 
-    <button class="variant-filled-secondary btn btn-xl"> Browse articles</button>
+    <a href="/articles" class="variant-filled-secondary btn btn-xl"> Browse articles</a>
 </div>
 
 <div class="square-grid-effect" />

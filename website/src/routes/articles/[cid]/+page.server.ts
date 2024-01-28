@@ -14,7 +14,7 @@ const articleSchema = z.object({
 });
 
 export const load = (async ({ params, fetch }) => {
-    const res = await fetch(`https://ipfs.io/ipfs/${params.cid}`);
+    const res = await fetch(`http://ipfs.decentraldigest.co:8080/ipfs/${params.cid}`);
     if (!res.ok) throw new Error("Not found");
 
     const data = await res.json();
