@@ -11,7 +11,7 @@ const articleSchema = z.object({
 });
 
 export const load = (async ({ params, fetch }) => {
-    const res = await fetch(`http://3.143.115.147:8080/ipfs/${params.cid}`);
+    const res = await fetch(`http://34.152.15.86:8080/ipfs/${params.cid}`);
     if (!res.ok) throw redirect(302, "/articles");
 
     const data = await res.json();

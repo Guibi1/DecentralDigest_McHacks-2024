@@ -3,20 +3,40 @@
 
     const articles = [
         {
-            title: "Deepfakes of Taylor Swift and George Carlin Raise Concerns: Legal Protections and AI Regulation Needed",
-            url: "Qmaq93GmDssaGDbh2ZthpJ1zWLNEyEPpYc3YCyxnmtbyrj",
+            title: "Jannik Sinner Makes History: 22-Year-Old Italian Defeats Daniil Medvedev in Thrilling Australian Open Final Comeback, Becomes Youngest Men's Grand Slam Winner Since Djokovic in 2008",
+            url: "QmeN28evEeSs1FTs3gW1rkUjn31GNPTAzMWzxBfyJjgHnU",
         },
         {
-            title: "Trump Ordered to Pay $83.3 Million in Damages to E. Jean Carroll for Defamation in Sexual Assault Case",
-            url: "QmRgvwbeChb6Q9nErpJBg1idYx3dpEK8mbbRLJHUzXNTnH",
+            title: "Former President Trump Ordered to Pay $83.3 Million in Damages to E. Jean Carroll Over Defamation Verdict",
+            url: "QmaPC9kXhj6SwLVBgyWQeGdpwajhoSx8RoEGjAu1fqyt5h",
         },
         {
-            title: "Reflect, Antisemitism Concerns Rise, and Auschwitz Preservation Efforts Continue",
-            url: "QmYZZ4mUzy3opqQ8Xuu5aBN4jVuWf2MATuKM6gfFENcLuA",
+            title: "Ongoing Conflict in Gaza: UN Calls for Humanitarian Aid Amidst Accusations of International Law Violations and Genocide",
+            url: "QmSwPLww9YunmT1uHABAT61DZegmKki3SPe4CCtGZazCgC",
         },
         {
-            title: "Cardell Hayes Convicted of Manslaughter in Retrial for Killing Former New Orleans Saints Star Will Smith, Faces Up to 40 Years in Prison",
-            url: "QmYuEQYH9R5T1HYz9BJPbB2NTaK9n9CgNffzSvKn8rWecw",
+            title: "Sinner Stuns Medvedev in Australian Open Final Comeback: Italian Claims First Grand Slam Title After Epic Five-Set Victory\" This title highlights the dramatic comeback of Jannik Sinner, who was down two sets and rallied to win the Australian Open final against Daniil Medvedev. It also emphasizes Sinner's achievement in winning his first Grand Slam title at the young age of 22.",
+            url: "QmYLpmaBKuDpFY8eNpdnq5LsmDFwqAXJYLzsuCKqVVaZ9D",
+        },
+        {
+            title: "",
+            url: "QmfWiRLvXfH4iAZr2dTYJeqF4Pr2ER4Byhv7cdsToQxU7t",
+        },
+        {
+            title: "",
+            url: "QmQcr8thxDWsyFTsNvPV9i2grRt8yBrvFc3Th67KS23XSq",
+        },
+        {
+            title: "",
+            url: "QmWza81aV22RYE4iY1DKugXySdXktBaait81FnB8joQCyA",
+        },
+        {
+            title: "",
+            url: "QmYDRAPww24Aj3P7joHLKyQoVF7Rz74Az5sgKbewE9PF2m",
+        },
+        {
+            title: "",
+            url: "QmNTDT1BZ8VEEjD6ZTTfVQK3ZmTyD8B78wswHTRtBkftdH",
         },
     ];
 </script>
