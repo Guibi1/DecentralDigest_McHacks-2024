@@ -6,10 +6,22 @@
             title: "Deepfakes of Taylor Swift and George Carlin Raise Concerns: Legal Protections and AI Regulation Needed",
             url: "Qmaq93GmDssaGDbh2ZthpJ1zWLNEyEPpYc3YCyxnmtbyrj",
         },
+        {
+            title: "Trump Ordered to Pay $83.3 Million in Damages to E. Jean Carroll for Defamation in Sexual Assault Case",
+            url: "QmRgvwbeChb6Q9nErpJBg1idYx3dpEK8mbbRLJHUzXNTnH",
+        },
+        {
+            title: "Reflect, Antisemitism Concerns Rise, and Auschwitz Preservation Efforts Continue",
+            url: "QmYZZ4mUzy3opqQ8Xuu5aBN4jVuWf2MATuKM6gfFENcLuA",
+        },
+        {
+            title: "Cardell Hayes Convicted of Manslaughter in Retrial for Killing Former New Orleans Saints Star Will Smith, Faces Up to 40 Years in Prison",
+            url: "QmYuEQYH9R5T1HYz9BJPbB2NTaK9n9CgNffzSvKn8rWecw",
+        },
     ];
 </script>
 
-<section class="container mx-auto flex flex-col items-center gap-8 px-16">
+<section class="container mx-auto mb-8 flex flex-col items-center gap-8 px-16">
     <h1 class="h1">News articles</h1>
 
     {#each articles as article}

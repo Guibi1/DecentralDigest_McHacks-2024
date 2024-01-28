@@ -10,7 +10,7 @@
     height="5rem"
     viewBox="0 0 300 300"
     xmlns="http://www.w3.org/2000/svg"
-    class={`fixed ${styles} stroke-2 ${colors[index]}`}
+    class={`fixed -z-20 ${styles} stroke-2 ${colors[index]}`}
 >
     <g>
         <line id="svg_10" y2="150" x2="300" y1="150" x1="0" />

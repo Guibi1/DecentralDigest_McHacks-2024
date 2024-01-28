@@ -5,7 +5,6 @@
     // Floating UI for Popups
     import { computePosition, autoUpdate, flip, shift, offset, arrow } from "@floating-ui/dom";
     import { storePopup } from "@skeletonlabs/skeleton";
-    import Star from "$lib/Star.svelte";
     storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 </script>
 
